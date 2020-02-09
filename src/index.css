@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  margin: 0 5px;
+  padding: 0;
+}
+
+.todo-list {
+  width: 400px;
+  border: 1px solid #ebebeb;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+  border-bottom: 1px solid #ebebeb;
+  padding: 20px;
+}
